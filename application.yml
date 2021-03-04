@@ -10,8 +10,9 @@ spring:
     name: SpringCloud-Config-Client
 eureka:
   client:
-    server-url:
+    service-url:
       defaultZone:  http://eureka7001.com:7001/eureka/
+      
 ---
 server: 
   port: 8202
@@ -21,5 +22,5 @@ spring:
     name: SpringCloud-Config-Client
 eureka:
   client:
-    server-url:
+    service-url:
       defaultZone:  http://eureka7001.com:7001/eureka/
